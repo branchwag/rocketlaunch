@@ -11,9 +11,9 @@ int main(void) {
 	float rocketSpeed = 5.0f;
 	
 	while (!WindowShouldClose()) {
-		if (rocketPosition.y > 0) {
+		//if (rocketPosition.y > 0) {
 			rocketPosition.y -= rocketSpeed;
-		}
+		//}
 		
 		BeginDrawing();
 		ClearBackground(BLACK);
